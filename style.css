@@ -1,0 +1,166 @@
+body { 
+  background: url(images/dup.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+#head{
+    width: 100%;
+    background-color:#231f20;
+}
+#navb{
+    background-color:#231f20 !important;
+    color: white !important;
+    font-weight: bold !important;
+}
+.nav-link{
+    color: white !important;
+    font-weight: bold !important;
+}
+.dropdown-menu :hover{
+    border: 1px solid white;
+    background-color: chocolate;
+    color: white !important;
+ padding: 10px;
+ text-align: center;
+}
+.fa-shopping-cart{
+    font-size: 32px !important;
+}
+.fa-user-o{
+    font-size: 32px !important;
+}
+.fa-phone{
+  font-size: 32px !important;
+}
+#nn{
+    font-family: 'Open Sans', sans-serif;
+   
+    color:darkred;
+    text-align:center;
+  }
+  
+  #nm{
+    font-family: 'Audiowide';
+    font-size:5em;
+
+      margin:auto; height:180px; width:70%;  
+    
+    -webkit-animation: floating-text 2s ease alternate infinite;
+       -moz-animation: floating-text 2s ease alternate infinite;
+        -ms-animation: floating-text 2s ease alternate infinite;
+         -o-animation: floating-text 2s ease alternate infinite;
+            animation: floating-text 2s ease alternate infinite;
+  }
+  
+  #pp{
+    color:rgba(255,255,255,.5);
+    position:absolute;
+    width:100%;
+    bottom:10em;
+    font-weight:300;
+  }
+  
+  #ll{
+    text-decoration:none;
+    color:#fff;
+  }
+  
+  @-webkit-keyframes floating-text {
+    0% {  
+      -webkit-transform: translateY(.1em);
+      text-shadow:0 0 .5em rgba(255,255,255,.4),
+        0 0 .2em rgba(0,0,0,.3),
+        0 .3em .2em rgba(0,0,0,.3);
+  
+    }
+    100% {
+      text-shadow:0 0 .5em rgba(255,255,255,.4),
+        0 0 .2em rgba(0,0,0,.3),
+        0 .5em .5em rgba(0,0,0,.3);
+    }
+  }
+  @-moz-keyframes floating-text {
+    0% {  
+      -moz-transform: translateY(.1em);
+      text-shadow:0 0 .5em rgba(255,255,255,.4),
+        0 0 .2em rgba(0,0,0,.3),
+        0 .3em .2em rgba(0,0,0,.3);
+  
+    }
+    100% {
+      text-shadow:0 0 .5em rgba(255,255,255,.4),
+        0 0 .2em rgba(0,0,0,.3),
+        0 .5em .5em rgba(0,0,0,.3);
+    }
+  }
+  @-ms-keyframes floating-text {
+    0% {  
+      -ms-transform: translateY(.1em);
+      text-shadow:0 0 .5em rgba(255,255,255,.4),
+        0 0 .2em rgba(0,0,0,.3),
+        0 .3em .2em rgba(0,0,0,.3);
+  
+    }
+    100% {
+      text-shadow:0 0 .5em rgba(255,255,255,.4),
+        0 0 .2em rgba(0,0,0,.3),
+        0 .5em .5em rgba(0,0,0,.3);
+    }
+  }
+  @-o-keyframes floating-text {
+    0% {  
+      -o-transform: translateY(.1em);
+      text-shadow:0 0 .5em rgba(255,255,255,.4),
+        0 0 .2em rgba(0,0,0,.3),
+        0 .3em .2em rgba(0,0,0,.3);
+  
+    }
+    100% {
+      text-shadow:0 0 .5em rgba(255,255,255,.4),
+        0 0 .2em rgba(0,0,0,.3),
+        0 .5em .5em rgba(0,0,0,.3);
+    }
+  }
+  @keyframes floating-text {
+    0% {  
+      transform: translateY(.1em);
+      text-shadow:0 0 .5em rgba(255,255,255,.4),
+        0 0 .2em rgba(0,0,0,.3),
+        0 .3em .2em rgba(0,0,0,.3);
+  
+    }
+    100% {
+      text-shadow:0 0 .5em rgba(255,255,255,.4),
+        0 0 .2em rgba(0,0,0,.3),
+        0 .5em .5em rgba(0,0,0,.3);
+    }
+  }
+  .card{
+    margin-top: 10px;
+  }
+.p>a {
+  border-bottom: 4px solid black;
+  color: black;
+  padding-bottom: .25em;
+  text-decoration: none;
+}
+
+.p>a:hover {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg id='squiggle-link' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' xmlns:ev='http://www.w3.org/2001/xml-events' viewBox='0 0 20 4'%3E%3Cstyle type='text/css'%3E.squiggle{animation:shift .3s linear infinite;}@keyframes shift {from {transform:translateX(0);}to {transform:translateX(-20px);}}%3C/style%3E%3Cpath fill='none' stroke='%23453886' stroke-width='2' class='squiggle' d='M0,3.5 c 5,0,5,-3,10,-3 s 5,3,10,3 c 5,0,5,-3,10,-3 s 5,3,10,3'/%3E%3C/svg%3E");
+  background-position: bottom;
+  background-repeat: repeat-x;
+  background-size: 20%;
+  border-bottom: 0;
+  padding-bottom: .3em;
+  text-decoration: none;
+}
+.footer{
+  background-color: #231f20;
+  width: 100%;
+  height: 60px;
+}
+
+
+

@@ -1,0 +1,384 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <title>TJ Store</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="images/tjnew.jpg" type="image/gif" sizes="16x16">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans:300' rel='stylesheet' type='text/css'>
+  </head>
+<body>
+    <!-- <div class="container-fluid" id="head">
+<div class="row">
+    <div class="col-md-4">
+      <img src="images/tjnew.jpg" alt="" style="height: 100px; width: 100px;"> -->
+        <!-- <p style="font-family:'Times New Roman', Times, serif; font-weight: 1000; background-color: aqua; border-radius: 80px; float: left; font-size:50px; text-align: center; color: #563d7c;">T.J </p> -->
+    <!-- </div>
+    <div class="col-md-8">
+        <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#myModal">
+       Log in
+          </button>
+          <div class="modal" id="myModal">
+            <div class="modal-dialog">
+              <div class="modal-content">
+               -->
+                <!-- Modal Header -->
+                <!-- <div class="modal-header">
+                  <h4 class="modal-title">Login</h4>
+                  <button type="button" class="close" data-dismiss="modal">&times;</button>
+                </div> -->
+                
+                <!-- Modal body -->
+                <!-- <div class="modal-body">
+                  <form>
+
+                  </form>
+                </div> -->
+                
+                <!-- Modal footer -->
+                <!-- <div class="modal-footer">
+                  <button type="button" class="btn btn-primary" data-dismiss="modal">Log In</button>
+                </div>
+                
+              </div>
+            </div>
+          </div>
+
+    </div>
+</div>
+    </div> -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-light " id="navb">
+      <a class="navbar-brand" href="#"> <img src="images/tjnew.jpg" alt="" style="height: 60px; width: 60px;"></a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+    
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto">
+       
+          
+          <!-- <li class="nav-item">
+            <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+          </li> -->
+        </ul>
+        <span class="navbar-text">
+          <ul class="navbar-nav mr-auto" style="padding: 5px;">
+            <li class="nav-item active">
+              <a class="nav-link "  href="#">HOME<span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="gallery.html">Gallery</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                Special items
+              </a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdown" style="background-color: #231f20; border: 1px solid white;">
+                <a class="dropdown-item" href="#" style="color: white; text-align: center;">Women</a>
+                <a class="dropdown-item" href="#" style="color: whitesmoke; text-align: center;">Men</a>
+                <div class="dropdown-divider" style="color: whitesmoke; text-align: center;"></div>
+                <a class="dropdown-item" href="#" style="color: whitesmoke; text-align: center; ">Makeup</a>
+              </div>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Feedback</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">About us</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#"><i class="fa fa-shopping-cart" aria-hidden="true"></i></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#"><i class="fa fa-user-o" aria-hidden="true" data-toggle="modal" data-target="#myModal">
+              </i></a> 
+                <!-- The Modal -->
+  <div class="modal" id="myModal">
+    <div class="modal-dialog">
+      <div class="modal-content">
+      
+        <!-- Modal Header -->
+        <div class="modal-header">
+          <h4 class="modal-title" style="color:darkgreen; text-align: center !important;">Login</h4>
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+        </div>
+        
+        <!-- Modal body -->
+        <div class="modal-body">
+          <form>
+            <div class="form-group">
+              <label style="color: darkgreen;">Username</label>
+              <input type="text" class="form-control" required="required">
+            </div>
+            <div class="form-group">
+              <div class="clearfix">
+                <label style="color: darkgreen;">Password</label>
+                <a href="#" class="pull-right text-muted"><small>Forgot?</small></a>
+              </div>
+              
+              <input type="password" class="form-control" required="required">
+            </div>
+          
+          </form>
+        </div>
+        
+        <!-- Modal footer -->
+        <div class="modal-footer">
+          <button type="button" class="btn btn-primary"  data-toggle="modal" data-target="#myModal2">Signup</button>
+            
+  <!-- The Modal -->
+  <div class="modal" id="myModal2" style="margin-left:-7px; margin-top: 0px;">
+    <div class="modal-dialog">
+      <div class="modal-content">
+      
+        <!-- Modal Header -->
+        <div class="modal-header">
+          <h4 class="modal-title" style="color: darkgreen;">Signup</h4>
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+        </div>
+        
+        <!-- Modal body -->
+        <div class="modal-body">
+         <form>
+          <div class="form-group">
+            <label style="color: darkgreen;">First Name</label>
+            <input type="text" class="form-control" required="required">
+          </div>
+          <div class="form-group">
+            <div class="clearfix">
+              <label style="color: darkgreen;">Last Name</label>
+              <input type="text" class="form-control" required="required">
+            </div>
+            <div class="form-group">
+              <div class="clearfix">
+                <label style="color: darkgreen;">Email</label>
+                <input type="email" class="form-control" required="required">
+              </div>
+              <label style="color: darkgreen;">Password</label>
+            <input type="password" class="form-control" required="required">
+            <label style="color: darkgreen;">Confirm Password</label>
+            <input type="password" class="form-control" required="required">
+          </div>
+        
+         </form>
+        </div>
+        
+        <!-- Modal footer -->
+        <div class="modal-footer">
+          <button type="button" class="btn btn-primary" data-dismiss="modal">Signup</button>
+        </div>
+        
+      </div>
+    </div>
+  </div>
+        </div>
+  
+          <button type="button" class="btn btn-primary" data-dismiss="modal">Login</button>
+
+        </div>
+        
+      </div>
+    </div>
+  </div>
+  
+
+            </li>
+
+            
+            <!-- <li class="nav-item">
+              <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+            </li> -->
+          </ul>
+        </span>
+        <!-- <form class="form-inline my-2 my-lg-0">
+          <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+          <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+        </form> -->
+      </div>
+    </nav>
+    <!-- Slider start -->
+    <div id="demo" class="carousel slide" data-ride="carousel">
+
+      <!-- Indicators -->
+      <ul class="carousel-indicators">
+        <li data-target="#demo" data-slide-to="0" class="active"></li>
+        <li data-target="#demo" data-slide-to="1"></li>
+        <li data-target="#demo" data-slide-to="2"></li>
+        <li data-target="#demo" data-slide-to="3"></li>
+        <li data-target="#demo" data-slide-to="4"></li>
+        <li data-target="#demo" data-slide-to="5"></li>
+        <li data-target="#demo" data-slide-to="6"></li>
+      </ul>
+    
+      <!-- The slideshow -->
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="images/slider 1.jpg" alt="" style="height: 500px; width: 100%;">
+        </div>
+        <div class="carousel-item">
+          <img src="images/slider 2.jpg" alt="" style="height: 500px; width: 100%;">
+        </div>
+        <div class="carousel-item">
+          <img src="images/slider 3.jpg" alt="" style="height: 500px; width: 100%;">
+        </div>
+        <div class="carousel-item">
+          <img src="images/slider 4.jpg" alt="" style="height: 500px; width: 100%;">
+        </div>
+        <div class="carousel-item">
+          <img src="images/slider 5.jpg" alt="" style="height: 500px; width: 100%;">
+        </div>
+        <div class="carousel-item">
+          <img src="images/slider 6.jpg" alt="" style="height: 500px; width: 100%;">
+        </div>
+        <div class="carousel-item">
+          <img src="images/slider 7.jpg" alt="" style="height: 500px; width: 100%;">
+        </div>
+      </div>
+    
+      <!-- Left and right controls -->
+      <a class="carousel-control-prev" href="#demo" data-slide="prev">
+        <span class="carousel-control-prev-icon"></span>
+      </a>
+      <a class="carousel-control-next" href="#demo" data-slide="next">
+        <span class="carousel-control-next-icon"></span>
+      </a>
+    
+    </div>
+    <!-- slider end -->
+    <div class="container" id="nn">
+    <h1 id="nm">Man's wear</h1>
+
+
+</div>
+ <div class="container">
+<div class="row">
+<div class="col-sm-12 col-md-6 col-lg-3" align="center">
+  
+  <div class="card" style="width: 15.7rem; border: 1px solid grey ; border-radius: 5px;">
+    <img class="card-img-top" src="images/man1.jpg" style="width: 250px; height: 205px;" alt="Card image cap">
+    <div class="card-body">
+      <h5 class="card-title">100% pure Cotton Shirt</h5>
+      <p class="card-text">PKR 3000</p>
+      <a href="#" class="btn btn-primary">Add to cart</a>
+    </div>
+  </div>
+</div>
+<div class="col-sm-12 col-md-6 col-lg-3" align="center">
+  <div class="card" style="width: 15.7rem; border: 1px solid grey ; border-radius: 5px;">
+    <img class="card-img-top" src="images/man2.jpg" style="width: 250px; height: 205px;" alt="Card image cap">
+    <div class="card-body">
+      <h5 class="card-title">100% pure Cotton Shirt</h5>
+      <p class="card-text">2,500</p>
+      <a href="#" class="btn btn-primary">Add to cart</a>
+    </div>
+  </div>
+</div>
+<div class="col-sm-12 col-md-6 col-lg-3" align="center">
+  <div class="card" style="width: 15.7rem; border: 1px solid grey ; border-radius: 5px;">
+    <img class="card-img-top" src="images/man3.jpg" style="width: 250px; height: 205px;" alt="Card image cap">
+    <div class="card-body">
+      <h5 class="card-title">100% pure Cotton Shirt</h5>
+      <p class="card-text">PKR 4000</p>
+      <a href="#" class="btn btn-primary">Add to cart</a>
+    </div>
+  </div>
+</div>
+<div class="col-sm-12 col-md-6 col-lg-3" align="center">
+  <div class="card" style="width: 15.7rem; border: 1px solid grey ; border-radius: 5px;" >
+    <img class="card-img-top" src="images/man4.jpg" style="width: 250px; height: 205px;" alt="Card image cap">
+    <div class="card-body">
+      <h5 class="card-title">100% pure Cotton Shirt</h5>
+      <p class="card-text">PKR 3,500</p>
+      <a href="#" class="btn btn-primary">Add to cart</a>
+    </div>
+  </div>
+</div>
+</div>
+</div> 
+
+<div class="container" id="nn">
+  <h1 id="nm">Woman's wear</h1>
+
+
+</div>
+<div class="container">
+  <div class="row">
+  <div class="col-sm-12 col-md-6 col-lg-3" align="center">
+    
+    <div class="card" style="width: 15.7rem; border: 1px solid grey ; border-radius: 5px;">
+      <img class="card-img-top" src="images/women1.jpg" style="width: 250px; height: 205px;" alt="Card image cap">
+      <div class="card-body">
+        <h5 class="card-title">100% pure Cotton Shirt</h5>
+        <p class="card-text">PKR 3000</p>
+        <a href="#" class="btn btn-primary">Add to cart</a>
+      </div>
+    </div>
+  </div>
+  <div class="col-sm-12 col-md-6 col-lg-3" align="center">
+    <div class="card" style="width: 15.7rem; border: 1px solid grey ; border-radius: 5px;">
+      <img class="card-img-top" src="images/women2.jpg" style="width: 250px; height: 205px;" alt="Card image cap">
+      <div class="card-body">
+        <h5 class="card-title">100% pure Cotton Shirt</h5>
+        <p class="card-text">2,500</p>
+        <a href="#" class="btn btn-primary">Add to cart</a>
+      </div>
+    </div>
+  </div>
+  <div class="col-sm-12 col-md-6 col-lg-3" align="center">
+    <div class="card" style="width: 15.7rem; border: 1px solid grey ; border-radius: 5px;">
+      <img class="card-img-top" src="images/women3.jpg" style="width: 250px; height: 205px;" alt="Card image cap">
+      <div class="card-body">
+        <h5 class="card-title">100% pure Cotton Shirt</h5>
+        <p class="card-text">PKR 4000</p>
+        <a href="#" class="btn btn-primary">Add to cart</a>
+      </div>
+    </div>
+  </div>
+  <div class="col-sm-12 col-md-6 col-lg-3" align="center">
+    <div class="card" style="width: 15.7rem; border: 1px solid grey ; border-radius: 5px;" >
+      <img class="card-img-top" src="images/women4.jpg" style="width: 250px; height: 205px;" alt="Card image cap">
+      <div class="card-body">
+        <h5 class="card-title">100% pure Cotton Shirt</h5>
+        <p class="card-text">PKR 3,500</p>
+        <a href="#" class="btn btn-primary">Add to cart</a>
+      </div>
+    </div>
+  </div>
+  </div>
+  </div>
+   <div>
+     <br> 
+     <div class="container-fluid">
+     <div class="row" style="background-color: lightgrey; ">
+       <div class="col-sm-12 col-md-6 col-lg-4" align="center"> <img src="images/tjnew.jpg"  style="padding: 10px; margin-left: 30px; border-radius: 90%; height: 130px; width: 130px;" alt=""> <br>
+      <img src="images/fb.webp" alt="" style="width: 40px; height: 40px; margin-left: 30px;">
+      <img src="images/whatsap.png" alt="" style="width: 40px; height: 40px;">
+      <img src="images/twitter.png" alt="" style="width: 40px; height: 40px; border-radius: 50%;">
+      
+      </div>
+       <div class="col-sm-12 col-md-6 col-lg-4" align="center"> <hr> <h4 style="margin-top: 10px;">Contact us</h4> <hr style="font-size:larger !important;"> <i class="fa fa-phone"aria-hidden="true"></i><h5>+92321-1234567</h5> <br>
+        <i class="fa fa-envelope" aria-hidden="true" style="font-size: 32px !important;"></i> <h5>abc123@gmail.com</h5> <br>
+        <i class="fa fa-map-marker" aria-hidden="true" style="font-size: 32px !important;"></i> <h5>Shop#123,Karachi,Pakistan</h5></div>
+       <div class="col-sm-12 col-md-6 col-lg-4"> <hr><h4 class="p" style="text-align: center; margin-top: 10px; "><a href="#">FAQ's</a></h4> <br>
+        <h4 class="p" style="text-align: center; margin-top: 10px; "><a href="#">Shipping Policy</a></h4> 
+        <h4 class="p" style="text-align: center; margin-top: 50px; "><a href="#">Return and Exchange Policy</a></h4> 
+        <h4 class="p" style="text-align: center; margin-top: 50px; "><a href="#">Privacy Policy</a></h4> 
+      </div>
+
+     </div>
+   </div>
+  </div> 
+  
+<div class="footer" style="margin-top: 00px;">
+  <div >
+    <h4 style="color: white; padding: 10px;">Copyright <i class="fa fa-copyright" aria-hidden="true" ></i>TehrimJilaniLimited</h4>
+  </div>
+
+</div>
+</body>
+</html>
